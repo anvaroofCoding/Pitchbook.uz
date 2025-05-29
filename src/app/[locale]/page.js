@@ -1,3 +1,5 @@
+import { BackgroundBeamsWithCollisionDemo } from '@/components/BackgroundBeans'
+import { DraggableCardDemo } from '@/components/draggebleDemoVersions'
 import { TimelineDemo } from '@/components/timelinesDemo'
 import { useTranslations } from 'next-intl'
 import { HeroHighlightDemo } from '../../components/heroDemoEffect'
@@ -11,6 +13,10 @@ export default function HomePage() {
 			</div>
 			<div>
 				<TimelineDemo />
+			</div>
+			<div className='py-[100px]'>
+				<BackgroundBeamsWithCollisionDemo />
+				<DraggableCardDemo />
 			</div>
 		</div>
 	)

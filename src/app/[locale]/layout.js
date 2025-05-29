@@ -1,3 +1,4 @@
+import CustomCursor from '@/components/CustomCursor'
 import LoadingWrapper from '@/components/LoadingWrapper'
 import Layout from '@/Layout/Layout'
 import { NextIntlClientProvider } from 'next-intl'
@@ -33,7 +34,10 @@ export default async function RootLayout({ children, params }) {
 						enableSystem={true}
 					>
 						<Layout>
-							<LoadingWrapper>{children}</LoadingWrapper>
+							<LoadingWrapper>
+								<CustomCursor />
+								{children}
+							</LoadingWrapper>
 						</Layout>
 					</ThemeProvider>
 				</NextIntlClientProvider>

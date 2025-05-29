@@ -22,6 +22,8 @@
 		"paymentsBody": "Click yoki Payme orqali xavfsiz va qulay to'lovlardan bahramand bo'ling. Har bir foydalanuvchi bronlar, sevimli maydonlar va tarixni boshqarish uchun shaxsiy profil yaratishi mumkin. Hammasi saqlanadi, sinxronlanadi va siz tayyor bo'lganda ishlaydi — shunda jarayonni emas, balki o'yinni diqqat bilan o'tkazishingiz mumkin.",
 		"title1": "Xarita asosida ko'p tilli kirish",
 		"title2": "Xavfsiz to'lovlar va aqlli profillar",
-		"description": "Asosiy vazifamiz insonlarni istalgan paytda futbol stadionlarini va sport zallarini bron qilishlariga yordam berish."
+		"description": "Asosiy vazifamiz insonlarni istalgan paytda futbol stadionlarini va sport zallarini bron qilishlariga yordam berish.",
+		"main_gallery": "Asosiy Galariya",
+		"are_you_aware": " Bulardan habaringiz bormi?"
 	}
 }
