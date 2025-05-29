@@ -7,7 +7,7 @@ export function TimelineDemo() {
 		{
 			title: t('quickBookingTitle'),
 			content: (
-				<div>
+				<div id='xusus'>
 					<p className='mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200'>
 						{t('quickBookingDesc')}
 					</p>

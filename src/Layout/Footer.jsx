@@ -4,7 +4,10 @@ import { Instagram, Mail, Phone, Send } from 'lucide-react'
 
 const Footer = () => {
 	return (
-		<footer className='bg-white dark:bg-gray-900 text-gray-800 rounded-t-[50px] dark:text-gray-200 border-t border-black/40 dark:border-white/50 px-6 py-10 mt-16'>
+		<footer
+			id='bog'
+			className='bg-white dark:bg-gray-900 text-gray-800 rounded-t-[50px] dark:text-gray-200 border-t border-black/40 dark:border-white/50 px-6 py-10 mt-16'
+		>
 			<div className='container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8'>
 				{/* Contact Section */}
 				<div className='space-y-4'>

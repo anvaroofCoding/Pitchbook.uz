@@ -26,10 +26,10 @@ const Navbar = () => {
 	const t = useTranslations()
 
 	const navLinks = [
-		{ href: t('features'), label: t('features') },
-		{ href: t('installation'), label: t('installation') },
+		{ href: 'xusus', label: t('features') },
+		{ href: 'install', label: t('installation') },
 		{ href: t('faq'), label: t('faq') },
-		{ href: t('contact'), label: t('contact') },
+		{ href: 'bog', label: t('contact') },
 	]
 
 	useEffect(() => {
