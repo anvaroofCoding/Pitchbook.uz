@@ -1,0 +1,27 @@
+{
+	"HomePage": {
+		"title": "Hello world!",
+		"about": "Go to the about page"
+	},
+	"features": "Features",
+	"installation": "Installation",
+	"faq": "FAQ",
+	"contact": "Contact",
+	"loading": "Loading...",
+	"title": "The fastest way to book football fields and courts",
+	"cta": "Click, pay, play!",
+	"download": "Download",
+	"xususiyatlar": {
+		"featuresTitle": "Features",
+		"quickBookingTitle": "Quick Booking",
+		"quickBookingDesc": "Easily book in seconds",
+		"quickBookingBody": "Say goodbye to long phone calls or confusing systems. With PitchBook, you can find and book your favorite football fields or sports courts in just a few clicks. Whether planning a game or a team practice, real-time availability ensures a fast and stress-free experience.",
+		"mapsLangTitle": "Language & Maps",
+		"mapsLangBody": "Designed for everyone, PitchBook supports Uzbek, Russian, and English to make booking easy for all users. Easily explore nearby fields with Yandex Maps — find the perfect spot, check details, and book instantly with accurate map-based navigation.",
+		"paymentsTitle": "Secure Payments",
+		"paymentsBody": "Enjoy safe and convenient payments through Click or Payme. Each user can create a personal profile to manage bookings, favorite fields, and history. Everything is saved, synced, and ready when you are — so you can focus on the game, not the process.",
+		"title1": "Multilingual Access via Map",
+		"title2": "Secure Payments & Smart Profiles",
+		"description": "Our main goal is to help people book football stadiums and sports halls anytime they want."
+	}
+}

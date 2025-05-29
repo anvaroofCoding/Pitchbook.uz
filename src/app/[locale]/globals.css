@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+	--background: #ffffff;
+	--foreground: #1f2937;
+}
+
+.dark {
+	--background: #111827;
+	--foreground: #f9fafb;
+}
+.container {
+	width: 80%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.font-dmSans {
+	font-family: 'DM Sans', sans-serif;
+}

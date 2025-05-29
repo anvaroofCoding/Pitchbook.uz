@@ -1,0 +1,27 @@
+{
+	"HomePage": {
+		"title": "Hello world!",
+		"about": "Go to the about page"
+	},
+	"features": "Xususiyatlari",
+	"installation": "O'rnatish",
+	"faq": "Savollar",
+	"contact": "Bog'lanish",
+	"loading": "Yuklanmoqda...",
+	"title": "Futbol maydonlari va kortlarini bron qilishning eng tezkor usuli",
+	"cta": "Bosing, to'lang, o'ynang!",
+	"download": "Yuklab olish",
+	"xususiyatlar": {
+		"featuresTitle": "Xususiyatlari",
+		"quickBookingTitle": "Tez bron qilish",
+		"quickBookingDesc": "Bir necha soniyada oson bron qilish",
+		"quickBookingBody": "Uzoq telefon qo'ng'iroqlari yoki chalkash tizimlarga xayr. PitchBook bilan siz faqat bir necha bosish orqali sevimli futbol maydonlaringizni yoki sport maydonchalarini topishingiz va bron qilishingiz mumkin. O'yin rejalashtirayapsizmi yoki jamoangiz bilan mashq qilmoqchimisiz, real vaqt rejimida mavjudlik jadvalni tez va stressiz qilishni ta'minlaydi.",
+		"mapsLangTitle": "Til va xaritalar",
+		"mapsLangBody": "Hamma uchun mo'ljallangan PitchBook, barcha foydalanuvchilar uchun bron qilishni osonlashtirish uchun o'zbek, rus va ingliz tillarini qo'llab-quvvatlaydi. Yandex Maps yordamida yaqinlaringizdagi mavjud maydonlarni osonlik bilan ko'rib chiqing — mukammal maydonni toping, tafsilotlarni tekshiring va xarita asosidagi aniq navigatsiya bilan darhol bron qiling.",
+		"paymentsTitle": "Oson to'lovlar",
+		"paymentsBody": "Click yoki Payme orqali xavfsiz va qulay to'lovlardan bahramand bo'ling. Har bir foydalanuvchi bronlar, sevimli maydonlar va tarixni boshqarish uchun shaxsiy profil yaratishi mumkin. Hammasi saqlanadi, sinxronlanadi va siz tayyor bo'lganda ishlaydi — shunda jarayonni emas, balki o'yinni diqqat bilan o'tkazishingiz mumkin.",
+		"title1": "Xarita asosida ko'p tilli kirish",
+		"title2": "Xavfsiz to'lovlar va aqlli profillar",
+		"description": "Asosiy vazifamiz insonlarni istalgan paytda futbol stadionlarini va sport zallarini bron qilishlariga yordam berish."
+	}
+}
