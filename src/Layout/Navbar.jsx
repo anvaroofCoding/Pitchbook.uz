@@ -72,13 +72,15 @@ const Navbar = () => {
 				{/* Logo and Hamburger */}
 				<div className='flex items-center justify-between w-full md:w-auto'>
 					<Link href={`/${currentLocale}`}>
-						<Image
-							src={theme === 'dark' ? logodark : logo}
-							alt='Logo'
-							width={0}
-							height={0}
-							className='w-[100px]'
-						/>
+						{typeof window !== 'undefined' && (
+							<Image
+								src={theme === 'dark' ? logodark : logo}
+								alt='Logo'
+								width={0}
+								height={0}
+								className='w-[100px]'
+							/>
+						)}
 					</Link>
 					<button
 						id='menuButton'
