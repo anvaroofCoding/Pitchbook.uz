@@ -1,7 +1,9 @@
 import { BackgroundBeamsWithCollisionDemo } from '@/components/BackgroundBeans'
+import Call from '@/components/call'
 import { DraggableCardDemo } from '@/components/draggebleDemoVersions'
 import { TimelineDemo } from '@/components/timelinesDemo'
 import { useTranslations } from 'next-intl'
+import Link from 'next/link'
 import { HeroHighlightDemo } from '../../components/heroDemoEffect'
 
 export default function HomePage() {
@@ -18,6 +20,11 @@ export default function HomePage() {
 				<BackgroundBeamsWithCollisionDemo />
 				<DraggableCardDemo />
 			</div>
+			<Link href={'tel:+998334243777'}>
+				<div className='fixed bottom-0 -right-10 z-50'>
+					<Call />
+				</div>
+			</Link>
 		</div>
 	)
 }
