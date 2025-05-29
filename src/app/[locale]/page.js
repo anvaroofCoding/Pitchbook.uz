@@ -1,3 +1,4 @@
+import { AnimatedTestimonialsDemo } from '@/components/AnimatedTestimonialsDemo'
 import { BackgroundBeamsWithCollisionDemo } from '@/components/BackgroundBeans'
 import Call from '@/components/call'
 import { DraggableCardDemo } from '@/components/draggebleDemoVersions'
@@ -16,7 +17,7 @@ export default function HomePage() {
 			<div>
 				<TimelineDemo />
 			</div>
-			<div className='py-[100px]'>
+			<div className='py-[0px]'>
 				<BackgroundBeamsWithCollisionDemo />
 				<DraggableCardDemo />
 			</div>
@@ -25,6 +26,9 @@ export default function HomePage() {
 					<Call />
 				</div>
 			</Link>
+			<div className='py-[100px]'>
+				<AnimatedTestimonialsDemo />
+			</div>
 		</div>
 	)
 }
