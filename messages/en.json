@@ -25,5 +25,35 @@
 		"description": "Our main goal is to help people book football stadiums and sports halls anytime they want.",
 		"main_gallery": "Main Gallery",
 		"are_you_aware": "Are you aware of these?"
-	}
+	},
+	"booking_q": "How do I book a field with PitchBook?",
+	"booking_a": "Download the app, sign up, choose a field and confirm the booking.",
+
+	"language_q": "Can I choose a language in the app?",
+	"language_a": "PitchBook supports Uzbek, Russian, and English languages.",
+
+	"fees_q": "Is there a fee to use PitchBook?",
+	"fees_a": "PitchBook is free. You only pay for the field booking.",
+
+	"cancel_q": "Can I cancel my booking?",
+	"cancel_a": "Yes, if allowed by the field owner, you can cancel your booking.",
+
+	"partner_q": "How can I become a partner?",
+	"partner_a": "If you own a field, contact us to get listed.",
+
+	"payment_q": "What payment methods are available?",
+	"payment_a": "Pay via Click, Payme, or other supported methods.",
+
+	"profile_q": "What can I do in my profile?",
+	"profile_a": "View your bookings, save favorites, and manage your settings.",
+
+	"map_q": "Where can I find fields?",
+	"map_a": "Use Yandex Maps to explore nearby fields.",
+
+	"support_q": "Who do I contact if I need help?",
+	"support_a": "Use the help section in the app or email us.",
+
+	"update_q": "Is the app updated regularly?",
+	"update_a": "Yes, PitchBook is constantly being improved.",
+	"faq_title": "Frequently Asked Questions"
 }

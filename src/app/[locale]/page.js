@@ -2,6 +2,7 @@ import { AnimatedTestimonialsDemo } from '@/components/AnimatedTestimonialsDemo'
 import { BackgroundBeamsWithCollisionDemo } from '@/components/BackgroundBeans'
 import Call from '@/components/call'
 import { DraggableCardDemo } from '@/components/draggebleDemoVersions'
+import FaqAccordion from '@/components/FaqAccordion'
 import { TimelineDemo } from '@/components/timelinesDemo'
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
@@ -28,6 +29,9 @@ export default function HomePage() {
 			</Link>
 			<div className='py-[100px]'>
 				<AnimatedTestimonialsDemo />
+			</div>
+			<div>
+				<FaqAccordion />
 			</div>
 		</div>
 	)

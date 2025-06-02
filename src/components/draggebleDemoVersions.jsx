@@ -36,7 +36,7 @@ export function DraggableCardDemo() {
 		{
 			title: 'New Zealand',
 			image:
-				'https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=3070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+				'https://www.untappedcities.com/content/images/wp-content/uploads/2013/03/grand-central-vanderbilt-tennis-court-untapped-new-york1-1.jpg',
 			className: 'absolute top-24 left-[45%] rotate-[-7deg]',
 		},
 		{
@@ -52,7 +52,7 @@ export function DraggableCardDemo() {
 				If its your first day at Fight Club, you have to fight.
 			</p>
 			{items.map(item => (
-				<DraggableCardBody className={item.className}>
+				<DraggableCardBody key={item.title} className={item.className}>
 					<img
 						src={item.image}
 						alt={item.title}

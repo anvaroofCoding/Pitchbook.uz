@@ -23,13 +23,13 @@ export function AnimatedTestimonialsDemo() {
 			designation: 'Operations Director at CloudScale',
 			src: 'https://assets.api.uizard.io/api/cdn/stream/3a9ed940-753b-4b16-a64e-cdaa684ef6dc.png',
 		},
-		{
-			quote:
-				'Yandex Maps yordamida yaqin futbol maydonlari yoki sport maydonchalarini qidiring. Mavjudlikni tekshiring, vaqtni tanlang va darhol joyni bron qiling.',
-			name: 'Qidiruv va Bron qilish',
-			designation: 'Engineering Lead at DataPro',
-			src: '',
-		},
+		// {
+		// 	quote:
+		// 		'Yandex Maps yordamida yaqin futbol maydonlari yoki sport maydonchalarini qidiring. Mavjudlikni tekshiring, vaqtni tanlang va darhol joyni bron qiling.',
+		// 	name: 'Qidiruv va Bron qilish',
+		// 	designation: 'Engineering Lead at DataPro',
+		// 	src: 'https://assets.api.uizard.io/api/cdn/stream/7188680f-c55a-433f-8649-147cb1d7c1d4.png',
+		// },
 		{
 			quote:
 				'Click yoki Payme orqali xavfsiz tolov qiling. Keling, royxatdan oting va oynashni boshlang — stresssiz, faqat futbol.',

@@ -5,7 +5,6 @@
 	},
 	"features": "Xususiyatlari",
 	"installation": "O'rnatish",
-	"faq": "Savollar",
 	"contact": "Bog'lanish",
 	"loading": "Yuklanmoqda...",
 	"title": "Futbol maydonlari va kortlarini bron qilishning eng tezkor usuli",
@@ -24,6 +23,37 @@
 		"title2": "Xavfsiz to'lovlar va aqlli profillar",
 		"description": "Asosiy vazifamiz insonlarni istalgan paytda futbol stadionlarini va sport zallarini bron qilishlariga yordam berish.",
 		"main_gallery": "Asosiy Galariya",
-		"are_you_aware": " Bulardan habaringiz bormi?"
-	}
+		"are_you_aware": "Bulardan habaringiz bormi?"
+	},
+
+	"booking_q": "PitchBook yordamida maydonni qanday bron qilaman?",
+	"booking_a": "Ilovani yuklab oling, telefon raqamingiz bilan ro'yxatdan o'ting, atrofingizdagi mavjud maydonlarni qidiring, vaqtni tanlang va bronni tasdiqlang. Shu bilan hammasi tayyor!",
+
+	"language_q": "Ilovada tilni tanlashim mumkinmi?",
+	"language_a": "PitchBook ilovasi O'zbek, Rus va Ingliz tillarini qo'llab-quvvatlaydi. Sozlamalar bo'limidan kerakli tilni tanlashingiz mumkin.",
+
+	"fees_q": "PitchBook'dan foydalanish uchun to'lov bormi?",
+	"fees_a": "Qo'shimcha to'lovlar yo'q! Siz faqat bron uchun to'lov qilasiz. PitchBook-ni bepul yuklab olish va foydalanish mumkin.",
+
+	"cancel_q": "Bronimni bekor qilishim yoki boshqa vaqtga o'tkazishim mumkinmi?",
+	"cancel_a": "Ha, maydon egasi ruxsat bergan holatda broningizni bekor qilishingiz yoki boshqa vaqtga o'zgartirishingiz mumkin.",
+
+	"partner_q": "Qanday qilib maydon hamkori bo'lishim mumkin?",
+	"partner_a": "Agar siz stadion yoki sport maydoniga egalik qilsangiz, PitchBook orqali hamkor bo‘lishingiz mumkin. Biz bilan bog‘laning!",
+
+	"payment_q": "Qanday to‘lov turlari mavjud?",
+	"payment_a": "Siz Click, Payme orqali xavfsiz to‘lov qilishingiz mumkin. Yaqin orada boshqa usullar ham qo‘shiladi.",
+
+	"profile_q": "Shaxsiy profil qanday ishlaydi?",
+	"profile_a": "Profilingiz orqali bronlar tarixini ko‘rish, sevimlilarni saqlash va sozlamalarni boshqarish mumkin.",
+
+	"map_q": "Maydonlarni qayerdan topsam bo‘ladi?",
+	"map_a": "Ilovadagi Yandex Maps orqali atrofdagi maydonlarni ko‘rib, tafsilotlarini bilib, darhol bron qilishingiz mumkin.",
+
+	"support_q": "Muammo bo‘lsa kimga murojaat qilaman?",
+	"support_a": "PitchBook ichidagi yordam bo‘limidan yoki email orqali bizga murojaat qilishingiz mumkin.",
+
+	"update_q": "Ilova doim yangilanib turadimi?",
+	"update_a": "Ha, biz PitchBook ilovasini foydalanuvchilar tajribasiga qarab muntazam takomillashtirib boramiz.",
+	"faq_title": "Tez-tez beriladigan savollar"
 }

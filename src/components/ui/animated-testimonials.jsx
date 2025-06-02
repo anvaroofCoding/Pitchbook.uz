@@ -36,7 +36,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
 		>
 			<div className='relative grid grid-cols-1 gap-20 md:grid-cols-2'>
 				<div>
-					<div className='relative lg:h-200 h-140 w-full'>
+					<div className='relative lg:h-120 h-140 w-full'>
 						<AnimatePresence>
 							{testimonials.map((testimonial, index) => (
 								<motion.div
@@ -75,7 +75,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
 										width={800}
 										height={800}
 										draggable={false}
-										className='h-full w-full rounded-3xl object-cover object-center'
+										className='h-full w-full rounded-3xl object-contain object-center'
 									/>
 								</motion.div>
 							))}
@@ -105,9 +105,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
 						<h3 className='text-2xl font-bold text-black dark:text-white'>
 							{testimonials[active].name}
 						</h3>
-						<p className='text-sm text-gray-500 dark:text-neutral-500'>
-							{testimonials[active].designation}
-						</p>
+
 						<motion.p className='mt-8 text-lg text-gray-500 dark:text-neutral-300'>
 							{testimonials[active].quote.split(' ').map((word, index) => (
 								<motion.span
