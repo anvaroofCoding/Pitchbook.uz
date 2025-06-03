@@ -5,13 +5,13 @@ export function TimelineDemo() {
 	const t = useTranslations('xususiyatlar')
 	const data = [
 		{
-			title: t('quickBookingTitle'),
+			title: <h2 className='text-black'>{t('quickBookingTitle')}</h2>,
 			content: (
 				<div id='xusus'>
-					<p className='mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200'>
+					<p className='mb-8 text-xs font-bold text-black md:text-sm dark:text-neutral-200'>
 						{t('quickBookingDesc')}
 					</p>
-					<p className='mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200'>
+					<p className='mb-8 text-xs font-normal text-black md:text-sm dark:text-neutral-200'>
 						{t('quickBookingBody')}
 					</p>
 
@@ -35,13 +35,13 @@ export function TimelineDemo() {
 			),
 		},
 		{
-			title: t('mapsLangTitle'),
+			title: <h2 className='text-black'>{t('mapsLangTitle')}</h2>,
 			content: (
 				<div>
-					<p className='mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200'>
+					<p className='mb-8 text-xs font-bold text-black md:text-sm dark:text-neutral-200'>
 						{t('title1')}
 					</p>
-					<p className='mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200'>
+					<p className='mb-8 text-xs font-normal text-black md:text-sm dark:text-neutral-200'>
 						{t('mapsLangBody')}
 					</p>
 					<div className='grid grid-cols-2 gap-4'>
@@ -64,10 +64,10 @@ export function TimelineDemo() {
 			),
 		},
 		{
-			title: t('paymentsTitle'),
+			title: <h2 className='text-black'>{t('paymentsTitle')}</h2>,
 			content: (
 				<div>
-					<p className='mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200'>
+					<p className='mb-4 text-xs font-bold  text-black md:text-sm dark:text-neutral-200'>
 						{t('title2')}
 					</p>
 					<div className='mb-8'>
