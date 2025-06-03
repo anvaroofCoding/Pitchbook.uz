@@ -6,23 +6,25 @@ import { ThemeProvider } from 'next-themes'
 import './globals.css'
 
 export const metadataUz = {
-	title: 'Pitchbook - Stadion va Sport Zallarini Onlayn Bron Qilish',
+	title:
+		'Pitchbook - Toshkentdagi Stadion va Sport Zallarini Onlayn Bron Qiling',
 	description:
-		'Pitchbook - bu stadion, tennis korti, sport zali, suzish havzasi va boshqa sport inshootlarini bron qilish uchun eng tezkor va qulay xizmat. Endi joy band qilish oson va tez!',
+		'Pitchbook — Toshkent shahrida stadion, tennis korti, sport zali, suzish havzasi va boshqa sport inshootlarini onlayn bron qilish uchun eng tezkor va qulay xizmat. Endi Toshkentdagi sport joylarini topish va band qilish juda oson!',
 	keywords: [
 		'pitchbook',
-		'stadion bron qilish',
-		'sport zal bron',
-		'tennis kort bron',
-		'futbol maydoni bron qilish',
-		'sport inshooti band qilish',
-		'sport zal topish',
-		"futbol o'ynash joyi",
-		'tezkor bron qilish',
-		'Toshkent stadion bron',
-		'online bron qilish ilova',
-		'sport joyi qidirish',
-		'sport inshootlari uz',
+		'toshkent sport zallari',
+		'toshkent stadion bron qilish',
+		'toshkent futbol maydoni',
+		'toshkent tennis korti bron qilish',
+		'toshkentda sport zal topish',
+		'toshkent sport inshootlari',
+		'toshkent suzish havzalari',
+		'toshkent sport joyi band qilish',
+		'toshkent futbol o‘ynash joyi',
+		'onlayn bron qilish toshkent',
+		'toshkent sport xizmatlari',
+		'sport zal bron qilish',
+		'stadion bron qilish ilova',
 		'pitchbook uz',
 	],
 	icons: {
