@@ -55,5 +55,25 @@
 
 	"update_q": "Ilova doim yangilanib turadimi?",
 	"update_a": "Ha, biz PitchBook ilovasini foydalanuvchilar tajribasiga qarab muntazam takomillashtirib boramiz.",
-	"faq_title": "Tez-tez beriladigan savollar"
+	"faq_title": "Tez-tez beriladigan savollar",
+	"name1": "Yuklab olish",
+	"quote1": "PitchBook ilovasini Google Play yoki App Store doʻkonidan yuklab oling. Bu tez, bepul va keyingi oʻyiningizni topishga yordam berishga tayyor.",
+	"src1": "https://assets.api.uizard.io/api/cdn/stream/0e97d5ed-bf22-4b3b-ba86-a6b3dd620070.png",
+
+	"name2": "Tezkor hisob",
+	"quote2": "Telefon raqamingizdan foydalanib, bir necha soniya ichida hisobingizni yarating. Uzoq shakllar yo'q - shunchaki tezkor SMS tasdiqlash va siz kirgansiz.",
+	"src2": "https://assets.api.uizard.io/api/cdn/stream/0e97d5ed-bf22-4b3b-ba86-a6b3dd620070.png",
+
+	"name3": "Qidiruv va Bron qilish",
+	"quote3": "Yandex Maps yordamida yaqin futbol maydonlari yoki sport maydonchalarini qidiring. Mavjudlikni tekshiring, vaqtni tanlang va darhol joyni bron qiling.",
+	"src3": "https://assets.api.uizard.io/api/cdn/stream/7188680f-c55a-433f-8649-147cb1d7c1d4.png",
+
+	"name4": "Tola va oyna",
+	"quote4": "Click yoki Payme orqali xavfsiz tolov qiling. Keling, royxatdan oting va oynashni boshlang — stresssiz, faqat futbol.",
+	"src4": "https://assets.api.uizard.io/api/cdn/stream/7188680f-c55a-433f-8649-147cb1d7c1d4.png",
+	"contactUs": "Biz bilan bog'laning",
+	"telegram": "Telegram",
+	"instagram": "Instagram",
+	"slogan": "Pitchbook - bu eng tezkor xizmat, shunchaki ilovaga kiring va kerakli joyni bron qiling!",
+	"copyright": "© 2025 PitchBook. Barcha huquqlar himoyalangan."
 }

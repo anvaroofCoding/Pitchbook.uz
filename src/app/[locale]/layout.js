@@ -17,7 +17,7 @@ export default async function RootLayout({ children, params }) {
 	const param = await params
 	console.log(param)
 	return (
-		<html lang='en' className='dark'>
+		<html lang='en' className=''>
 			<body className={`font-dmSans antialiased dark:bg-black bg-white`}>
 				<NextIntlClientProvider>
 					<ThemeProvider

@@ -55,5 +55,25 @@
 
 	"update_q": "Is the app updated regularly?",
 	"update_a": "Yes, PitchBook is constantly being improved.",
-	"faq_title": "Frequently Asked Questions"
+	"faq_title": "Frequently Asked Questions",
+	"name1": "Download",
+	"quote1": "Download the PitchBook app from Google Play or App Store. It's fast, free, and ready to help you find your next game.",
+	"src1": "https://assets.api.uizard.io/api/cdn/stream/0e97d5ed-bf22-4b3b-ba86-a6b3dd620070.png",
+
+	"name2": "Quick Account",
+	"quote2": "Create your account in seconds using your phone number. No long forms – just fast SMS verification and you're in.",
+	"src2": "https://assets.api.uizard.io/api/cdn/stream/0e97d5ed-bf22-4b3b-ba86-a6b3dd620070.png",
+
+	"name3": "Search & Book",
+	"quote3": "Use Yandex Maps to find nearby football or sports fields. Check availability, pick a time, and book immediately.",
+	"src3": "https://assets.api.uizard.io/api/cdn/stream/7188680f-c55a-433f-8649-147cb1d7c1d4.png",
+
+	"name4": "Pay & Play",
+	"quote4": "Make secure payments with Click or Payme. Register and start playing — stress-free, just football.",
+	"src4": "https://assets.api.uizard.io/api/cdn/stream/7188680f-c55a-433f-8649-147cb1d7c1d4.png",
+	"contactUs": "Contact us",
+	"telegram": "Telegram",
+	"instagram": "Instagram",
+	"slogan": "PitchBook is the fastest service – just open the app and book your desired spot!",
+	"copyright": "© 2025 PitchBook. All rights reserved."
 }

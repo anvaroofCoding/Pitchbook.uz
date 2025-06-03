@@ -28,7 +28,7 @@ const Navbar = () => {
 	const navLinks = [
 		{ href: 'xusus', label: t('features') },
 		{ href: 'install', label: t('installation') },
-		{ href: t('faq'), label: t('faq') },
+		{ href: 'faq', label: t('faq') },
 		{ href: 'bog', label: t('contact') },
 	]
 
@@ -64,7 +64,7 @@ const Navbar = () => {
 		<div
 			className={`sticky top-0 left-0 right-0 z-50 transition-all duration-300 px-4 border-b dark:border-white/20 border-black/20 ${
 				scrolling
-					? 'bg-white dark:bg-gray-800/80 py-2 shadow-md rounded-b-[50px]'
+					? 'bg-white/70 dark:bg-black/70 py-2 shadow-md rounded-b-[50px]'
 					: 'bg-transparent py-4 '
 			}`}
 		>
@@ -146,7 +146,7 @@ const Navbar = () => {
 			{/* Mobile Menu Drawer */}
 			<div
 				id='mobileMenu'
-				className={`fixed top-0 right-0 h-full w-3/4 max-w-xs bg-white dark:bg-gray-900 shadow-lg z-40 transform transition-transform duration-300 ease-in-out md:hidden ${
+				className={`fixed top-0 right-0 h-full w-3/4 max-w-xs bg-white dark:bg-black/70 shadow-lg z-40 transform transition-transform duration-300 ease-in-out md:hidden ${
 					menuOpen ? 'translate-x-0' : 'translate-x-full'
 				}`}
 			>
