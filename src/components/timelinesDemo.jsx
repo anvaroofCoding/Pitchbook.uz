@@ -5,7 +5,9 @@ export function TimelineDemo() {
 	const t = useTranslations('xususiyatlar')
 	const data = [
 		{
-			title: <h2 className='text-black'>{t('quickBookingTitle')}</h2>,
+			title: (
+				<h2 className='text-black dark:text-white'>{t('quickBookingTitle')}</h2>
+			),
 			content: (
 				<div id='xusus'>
 					<p className='mb-8 text-xs font-bold text-black md:text-sm dark:text-neutral-200'>
@@ -35,7 +37,9 @@ export function TimelineDemo() {
 			),
 		},
 		{
-			title: <h2 className='text-black'>{t('mapsLangTitle')}</h2>,
+			title: (
+				<h2 className='text-black dark:text-white'>{t('mapsLangTitle')}</h2>
+			),
 			content: (
 				<div>
 					<p className='mb-8 text-xs font-bold text-black md:text-sm dark:text-neutral-200'>
@@ -64,7 +68,9 @@ export function TimelineDemo() {
 			),
 		},
 		{
-			title: <h2 className='text-black'>{t('paymentsTitle')}</h2>,
+			title: (
+				<h2 className='text-black dark:text-white'>{t('paymentsTitle')}</h2>
+			),
 			content: (
 				<div>
 					<p className='mb-4 text-xs font-bold  text-black md:text-sm dark:text-neutral-200'>
