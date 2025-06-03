@@ -1,7 +1,7 @@
 import { AnimatedTestimonialsDemo } from '@/components/AnimatedTestimonialsDemo'
+import { AppleCardsCarouselDemo } from '@/components/AppleCardsCarouselDemo'
 import { BackgroundBeamsWithCollisionDemo } from '@/components/BackgroundBeans'
 import Call from '@/components/call'
-import { DraggableCardDemo } from '@/components/draggebleDemoVersions'
 import FaqAccordion from '@/components/FaqAccordion'
 import { TimelineDemo } from '@/components/timelinesDemo'
 import { useTranslations } from 'next-intl'
@@ -20,7 +20,7 @@ export default function HomePage() {
 			</div>
 			<div className='py-[0px]'>
 				<BackgroundBeamsWithCollisionDemo />
-				<DraggableCardDemo />
+				<AppleCardsCarouselDemo />
 			</div>
 			<Link href={'tel:+998334243777'}>
 				<div className='fixed bottom-0 -right-10 z-50'>

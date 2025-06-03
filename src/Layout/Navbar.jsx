@@ -68,9 +68,9 @@ const Navbar = () => {
 					: 'bg-transparent py-4 '
 			}`}
 		>
-			<div className='container flex flex-col md:flex-row items-center justify-between gap-4'>
+			<div className='container flex flex-col lg:flex-row  items-center justify-between gap-4'>
 				{/* Logo and Hamburger */}
-				<div className='flex items-center justify-between w-full md:w-auto'>
+				<div className='flex items-center justify-between w-full lg:w-auto'>
 					<Link href={`/${currentLocale}`}>
 						{typeof window !== 'undefined' && (
 							<Image
@@ -85,7 +85,7 @@ const Navbar = () => {
 					<button
 						id='menuButton'
 						onClick={() => setMenuOpen(!menuOpen)}
-						className='md:hidden text-gray-800 dark:text-white p-2'
+						className='lg:hidden text-gray-800 dark:text-white p-2'
 					>
 						{menuOpen ? (
 							<X className='w-6 h-6' />
@@ -96,7 +96,7 @@ const Navbar = () => {
 				</div>
 
 				{/* Navigation Links - Desktop */}
-				<ul className='hidden md:flex gap-6 justify-center items-center'>
+				<ul className='hidden lg:flex gap-6 justify-center items-center'>
 					{navLinks.map(({ href, label }) => (
 						<li key={href}>
 							<Link
@@ -111,7 +111,7 @@ const Navbar = () => {
 				</ul>
 
 				{/* Right Side - Desktop */}
-				<div className='hidden md:flex items-center gap-4'>
+				<div className='hidden lg:flex items-center gap-4'>
 					{languages.map(({ code, label }) => (
 						<button
 							key={code}
@@ -146,7 +146,7 @@ const Navbar = () => {
 			{/* Mobile Menu Drawer */}
 			<div
 				id='mobileMenu'
-				className={`fixed top-0 right-0 h-full w-3/4 max-w-xs bg-white dark:bg-black/70 shadow-lg z-40 transform transition-transform duration-300 ease-in-out md:hidden ${
+				className={`fixed top-0 right-0 h-full w-3/4 max-w-xs bg-white dark:bg-black/70 shadow-lg z-40 transform transition-transform duration-300 ease-in-out lg:hidden ${
 					menuOpen ? 'translate-x-0' : 'translate-x-full'
 				}`}
 			>
