@@ -28,7 +28,7 @@ const FaqAccordion = () => {
 	]
 
 	return (
-		<div className='max-w-3xl mx-auto p-4 space-y-4'>
+		<div className='max-w-3xl mx-auto p-4 space-y-4' id='faqs'>
 			<h2 className='text-3xl font-bold text-center mb-6'>{t('faq_title')}</h2>
 
 			{items.map((item, index) => (

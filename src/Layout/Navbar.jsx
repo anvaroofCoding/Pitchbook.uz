@@ -28,7 +28,7 @@ const Navbar = () => {
 	const navLinks = [
 		{ href: 'xusus', label: t('features') },
 		{ href: 'install', label: t('installation') },
-		{ href: 'faq', label: t('faq') },
+		{ href: 'faqs', label: t('faq') },
 		{ href: 'bog', label: t('contact') },
 	]
 
