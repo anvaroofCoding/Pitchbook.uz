@@ -1,6 +1,5 @@
 import { AnimatedTestimonialsDemo } from '@/components/AnimatedTestimonialsDemo'
 import { AppleCardsCarouselDemo } from '@/components/AppleCardsCarouselDemo'
-import { BackgroundBeamsWithCollisionDemo } from '@/components/BackgroundBeans'
 import Call from '@/components/call'
 import FaqAccordion from '@/components/FaqAccordion'
 import { TimelineDemo } from '@/components/timelinesDemo'
@@ -19,7 +18,7 @@ export default function HomePage() {
 				<TimelineDemo />
 			</div>
 			<div className='py-[0px]'>
-				<BackgroundBeamsWithCollisionDemo />
+				{/* <BackgroundBeamsWithCollisionDemo /> */}
 				<AppleCardsCarouselDemo />
 			</div>
 			<Link href={'tel:+998334243777'}>

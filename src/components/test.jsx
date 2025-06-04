@@ -1,18 +1,24 @@
 'use client'
 
-import { useEffect, useState, useTransition } from 'react'
-import { useSearchParams, useRouter } from 'next/navigation'
 import { Input } from '@/components/ui/input'
-import { Table, TableHead, TableRow, TableCell, TableBody } from '@/components/ui/table'
 import { Skeleton } from '@/components/ui/skeleton'
-import { useTranslations } from 'next-intl'
+import {
+	Table,
+	TableBody,
+	TableCell,
+	TableHead,
+	TableRow,
+} from '@/components/ui/table'
 import debounce from 'lodash.debounce'
+import { useTranslations } from 'next-intl'
+import { useRouter, useSearchParams } from 'next/navigation'
+import { useEffect, useState, useTransition } from 'react'
 
 const PAGE_SIZE = 10
 
 export default function ClientSearchTable() {
 	const t = useTranslations('dashboard')
-	const [data, setData] = useState<any[]>([])
+	const [data, setData] = useState()
 	const [loading, setLoading] = useState(true)
 	const [isPending, startTransition] = useTransition()
 
@@ -39,25 +45,25 @@ export default function ClientSearchTable() {
 		fetchData(query, page)
 	}, [query, page])
 
-	const handleSearch = debounce((value: string) => {
+	const handleSearch = debounce(value => {
 		startTransition(() => {
 			router.push(`?q=${value}&page=1`)
 		})
 	}, 400)
 
 	return (
-		<div className="space-y-6">
-			<div className="flex justify-between items-center">
-				<h2 className="text-2xl font-bold dark:text-white">{t('clients')}</h2>
+		<div className='space-y-6'>
+			<div className='flex justify-between items-center'>
+				<h2 className='text-2xl font-bold dark:text-white'>{t('clients')}</h2>
 				<Input
 					placeholder={t('searchPlaceholder')}
 					defaultValue={query}
 					onChange={e => handleSearch(e.target.value)}
-					className="w-64"
+					className='w-64'
 				/>
 			</div>
 
-			<div className="rounded-md border overflow-x-auto">
+			<div className='rounded-md border overflow-x-auto'>
 				<Table>
 					<TableHead>
 						<TableRow>
@@ -71,13 +77,13 @@ export default function ClientSearchTable() {
 							[...Array(PAGE_SIZE)].map((_, idx) => (
 								<TableRow key={idx}>
 									<TableCell colSpan={3}>
-										<Skeleton className="h-6 w-full" />
+										<Skeleton className='h-6 w-full' />
 									</TableCell>
 								</TableRow>
 							))
 						) : data.length === 0 ? (
 							<TableRow>
-								<TableCell colSpan={3} className="text-center py-8">
+								<TableCell colSpan={3} className='text-center py-8'>
 									{t('noResults')}
 								</TableCell>
 							</TableRow>
@@ -86,7 +92,9 @@ export default function ClientSearchTable() {
 								<TableRow key={client.id}>
 									<TableCell>{client.name}</TableCell>
 									<TableCell>{client.email}</TableCell>
-									<TableCell>{client.active ? t('active') : t('inactive')}</TableCell>
+									<TableCell>
+										{client.active ? t('active') : t('inactive')}
+									</TableCell>
 								</TableRow>
 							))
 						)}

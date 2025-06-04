@@ -18,9 +18,7 @@ export function AnimatedTestimonialsDemo() {
 		{
 			quote: t('quote3'),
 			name: t('name3'),
-			src: t(
-				'https://assets.api.uizard.io/api/cdn/stream/3a9ed940-753b-4b16-a64e-cdaa684ef6dc.png'
-			),
+			src: 'https://assets.api.uizard.io/api/cdn/stream/3a9ed940-753b-4b16-a64e-cdaa684ef6dc.png',
 		},
 		{
 			quote: t('quote4'),
